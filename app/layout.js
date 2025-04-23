@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Portfolio of Saqlain Haider - Unity Game Developer",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Saqlain Haider. I am a Unity Game Developer based in Pakistan. With more than 3 years of hands-on experience in game development in Unity with C#, I have developed diverse self-initiated projects that demonstrate my enthusiasm for game-based experiences and gameplay systems. My background in graphics programming is solid, and I keep broadening my horizon by learning about low-level rendering APIs like OpenGL and DirectX. My areas of interest include creating immersive games, performance optimization, and ongoing learning to explore the limits of real-time graphics and interactivity.",
 };
 
 export default function RootLayout({ children }) {

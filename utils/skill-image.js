@@ -7,12 +7,12 @@ import azure from '../app/assets/svg/skills/azure.svg';
 import blender from '../app/assets/svg/skills/blender.svg';
 import bootstrap from '../app/assets/svg/skills/bootstrap.svg';
 import bulma from '../app/assets/svg/skills/bulma.svg';
-import c from '../app/assets/svg/skills/c.svg';
+import c from '../app/assets/svg/skills/c.png';
 import canva from '../app/assets/svg/skills/canva.svg';
 import capacitorjs from '../app/assets/svg/skills/capacitorjs.svg';
 import coffeescript from '../app/assets/svg/skills/coffeescript.svg';
-import cplusplus from '../app/assets/svg/skills/cplusplus.svg';
-import csharp from '../app/assets/svg/skills/csharp.svg';
+import cplusplus from '../app/assets/svg/skills/cpp.png';
+import csharp from '../app/assets/svg/skills/csharp.png';
 import css from '../app/assets/svg/skills/css.svg';
 import dart from '../app/assets/svg/skills/dart.svg';
 import deno from '../app/assets/svg/skills/deno.svg';
@@ -65,14 +65,14 @@ import swift from '../app/assets/svg/skills/swift.svg';
 import tailwind from '../app/assets/svg/skills/tailwind.svg';
 import tensorflow from '../app/assets/svg/skills/tensorflow.svg';
 import typescript from '../app/assets/svg/skills/typescript.svg';
-import unity from '../app/assets/svg/skills/unity.svg';
+import unity from '../app/assets/svg/skills/unity.png';
 import vitejs from '../app/assets/svg/skills/vitejs.svg';
 import vue from '../app/assets/svg/skills/vue.svg';
 import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
-
+import opengl from '../app/assets/svg/skills/opengl.svg';
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
 import dotnet from '../app/assets/svg/skills/dotnet.svg';
@@ -81,7 +81,7 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
+import lwjgl from '../app/assets/svg/skills/lwjgl.svg'
 
 
 export const skillsImage = (skill) => {
@@ -251,6 +251,10 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+      case 'opengl':
+        return opengl;
+    case 'lwjgl':
+      return lwjgl;
     default:
       break;
   }
