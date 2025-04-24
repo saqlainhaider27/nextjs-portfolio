@@ -2,7 +2,7 @@ export const projectsData = [
     {
         id: 1,
         name: 'Farm Dog Bingo',
-        description: "Farm Dog Bingo is a fun and engaging game where you play as a dog and try to put all the sheeps in the pen before the sun goes down.",
+        description: "Farm Dog Bingo is a fun and engaging game where you play as a dog and try to put all the sheep in the pen before the sun goes down.",
         tools: ['Unity', 'C#'],
         role: 'Game Developer',
         code: '',
